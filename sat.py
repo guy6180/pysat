@@ -39,6 +39,9 @@ class DNF:
 
 
 class Term:
+    """
+    A two-literal term.
+    """
 
     def __init__(self, litA, litB):
         self.litA = litA
